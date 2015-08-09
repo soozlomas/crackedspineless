@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-#wrapperfront{width:620px; height:457px; padding-top:150px; padding-bottom:48px; margin-left:auto; margin-right:auto;}
+#wrapperfront{width:620px; height:482px; padding-top:150px; padding-bottom:48px; margin-left:auto; margin-right:auto;}
 
 #wrapperothers{width:620px; padding-top:48px; padding-bottom:48px; margin-left:auto; margin-right:auto;}
 
@@ -13,6 +13,8 @@
 
 #rightcolumn{width:404px; height:457px; float:right}
 
+#copyright{width:216px; height:20px; float:left; padding-top: 4px; font-family: 'Montserrat', sans-serif; font-size: 8px; text-transform: uppercase; letter-spacing: 1px; color:#FFFFFF; text-align: center;}
+
 #biglogo{width:404px; height:193px; float:right; padding-top:36px; padding-bottom:36px; }
 
 #smalllogo{width:404px; height:84px; float:right;}
@@ -21,7 +23,7 @@
 
 #contactmain{width:404px; height:29px; float:right; padding-bottom:18px;}
 
-#contactothers{width:182px; padding-top:18px; padding-left:34px; float:left;}
+#contactothers{width:182px; padding-top:18px; padding-left:37px; float:left;}
 
 #contactform{width:382px; padding-top:18px; float:right;
 	font-family: 'Montserrat', sans-serif; font-size: 12px; line-height: 300%; color: #FFFFFF; text-transform: uppercase; padding: 0px 10px 10px 10px; letter-spacing: 1px; border: #FFFFFF solid 1px; }
