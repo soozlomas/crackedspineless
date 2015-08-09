@@ -1,0 +1,533 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#wrapperfront{width:620px; height:457px; padding-top:150px; padding-bottom:48px; margin-left:auto; margin-right:auto;}
+
+#wrapperothers{width:620px; padding-top:48px; padding-bottom:48px; margin-left:auto; margin-right:auto;}
+
+#navfront{width:404px; height:29px; float:right}
+
+#navothers{width:404px;height:29px;float:right; padding-top: 18px; padding-bottom: 18px;}
+
+#leftcolumn{width:216px; height:457px; float:left}
+
+#rightcolumn{width:404px; height:457px; float:right}
+
+#biglogo{width:404px; height:193px; float:right; padding-top:36px; padding-bottom:36px; }
+
+#smalllogo{width:404px; height:84px; float:right;}
+
+#hoursandaddress{width:404px; height:69px; padding-bottom:18px; float:right;}
+
+#contactmain{width:404px; height:29px; float:right; padding-bottom:18px;}
+
+#contactothers{width:182px; padding-top:18px; padding-left:34px; float:left;}
+
+#contactform{width:382px; padding-top:18px; float:right;
+	font-family: 'Montserrat', sans-serif; font-size: 12px; line-height: 300%; color: #FFFFFF; text-transform: uppercase; padding: 0px 10px 10px 10px; letter-spacing: 1px; border: #FFFFFF solid 1px; }
+
+#quote{width:404px; height:29px; padding-bottom:18px; float:right;}
+
+#about{width:374px; color:#000000; background: #FFFFFF; padding:15px; float:right;}
+
+#news{width:404px; float:right;}
+
+#reviewtop {
+width:404px; height:308px; float:right; background: #FFFFFF; 
+}
+
+#reviewback{
+	width: 172px; padding-bottom: 50px; 
+	}
+	
+#bookcover {
+width:202px; height:308px; float:left;
+}
+
+#reviewinfo {
+	width: 172px;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 15px;
+	height: 278px;
+	float: right;
+	background: #FFFFFF;
+}
+
+
+#reviewsbody{
+	width: 374px;
+	color: #000000;
+	background: #FFFFFF;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 2px;
+	float: right;
+}
+
+#reviewscovers{width:404px; float:right;}
+
+#coverstop{
+	width:404px; height:308px;}
+
+#coverscentre{
+	width:404px; height:308px;}
+	
+#coversbottom{
+	width:404px; height:308px; padding-bottom:4px;}
+	
+#webmap {
+	width:404px; height:360px; float:right; padding-top:18px; padding-bottom:18px;
+	}
+	
+h1 {
+	font-family: 'Cardo', serif; 
+	 font-size:20px;
+	 font-weight: 400; 
+	 line-height: 95%; 
+	 display: block;
+	 text-transform: lowercase;
+	 }
+	 
+.capletter {
+	text-transform: uppercase;
+}
+
+body {
+        font-family: 'Montserrat', sans-serif;
+		 background: #000000
+       }
+	
+boldbody{
+	font-family: 'Cardo', serif; font-weight:700;
+}
+	   
+p {
+	 font-family: 'Cardo', serif; 
+	 font-size:13px; 
+       }
+	   
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+	/*color:#FFFFFF;*/
+}
+
+a:hover, a:active {
+	text-decoration: none;
+}
+
+a.nav:hover, a.nav:active {
+    background-color: #FFFFFF;
+	color:#000000;
+	text-decoration: none;
+}
+
+a.navright:hover, a.navright:active {
+    background-color: #FFFFFF;
+	color:#000000;
+	text-decoration: none;
+}
+
+a.white:link, a.white:visited {
+	color:#FFFFFF;
+	text-decoration: none;
+}
+
+a.reviewback:hover, a.reviewback:active {
+	color:#000000;
+	text-decoration: none;
+}
+
+a.reviewback:link, a.reviewback:visited {
+	color:#000000;
+	text-decoration: none;
+}
+
+
+/* a.email:link, a.email:visited, {
+    text-decoration: none;
+}
+
+a.email:hover, a.email:active {
+    background-color: #FFFFFF;
+	color:#000000;
+}*/
+
+.border {
+	border: 1px solid #FFFFFF; 
+}
+
+.nav{
+	font-size: 14px;
+	height: 19px;
+	display: block;
+    width: 92px;
+	color: #FFFFFF; 
+	text-transform: uppercase; 
+	padding: 4px; 
+	letter-spacing: 1px; 
+	border: #FFFFFF solid; 
+	border-top-width: 1px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 1px; 
+	text-align: center;
+	}
+	
+.navright{
+	font-size: 14px;
+	height: 19px;
+	display: block;
+    width: 91px;
+	color: #FFFFFF; 
+	text-transform: uppercase; 
+	padding: 4px; 
+	letter-spacing: 1px; 
+	border: #FFFFFF solid; 
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px; 
+	text-align: center;
+	}
+	
+.navnews{
+	font-size: 14px;
+	color: #000000; 
+	background-color: #FFFFFF;
+	height: 19px;
+	display: block;
+    width: 92px;
+	text-transform: uppercase; 
+	padding: 4px; 
+	letter-spacing: 1px; 
+	border: #FFFFFF solid; 
+	border-top-width: 1px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 1px; 
+	text-align: center;
+	}
+	
+.navreviews{
+	font-size: 14px;
+	color: #000000; 
+	background-color: #FFFFFF;
+	height: 19px;
+	display: block;
+    width: 92px;
+	text-transform: uppercase; 
+	padding: 4px; 
+	letter-spacing: 1px; 
+	border: #FFFFFF solid; 
+	border-top-width: 1px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 1px; 
+	text-align: center;
+	}
+	
+.navabout{
+	font-size: 14px;
+	color: #000000; 
+	background-color: #FFFFFF;
+	height: 19px;
+	display: block;
+    width: 92px;
+	text-transform: uppercase; 
+	padding: 4px; 
+	letter-spacing: 1px; 
+	border: #FFFFFF solid; 
+	border-top-width: 1px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 1px; 
+	text-align: center;
+	}
+	
+.navcontact{
+	font-size: 14px;
+	height: 19px;
+	display: block;
+    width: 91px;
+	color: #000000; 
+	background-color: #FFFFFF;
+	text-transform: uppercase; 
+	padding: 4px; 
+	letter-spacing: 1px; 
+	border: #FFFFFF solid; 
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px; 
+	text-align: center;
+	}
+
+.fronthours{
+	height: 60px;
+    width: 193px;
+	color: #FFFFFF; 
+	text-transform: uppercase; 
+	padding: 4px; 
+	font-size:12px; 
+	letter-spacing: 1px; 
+	border: #FFFFFF solid; 
+	border-top-width: 1px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;  
+	text-align: center;
+	line-height: 15px;
+}
+
+.frontaddress{
+	height: 52px;
+    width: 192px;
+	color: #FFFFFF; 
+	text-transform: uppercase; 
+	padding: 11px 4px 5px 4px; 
+	font-size:12px; 
+	letter-spacing: 1px; 
+	border: #FFFFFF solid 1px; 
+	text-align: center;
+	line-height: 15px;
+}
+
+.frontphone{
+	float: left;
+	display: block;
+	height: 19px;
+    width: 131px;
+	color: #FFFFFF; 
+	text-transform: uppercase; 
+	padding: 5px 4px 3px 4px; 
+	font-size:12px; 
+	letter-spacing: 1px; 
+	border: #FFFFFF solid; 
+	border-top-width: 1px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;  
+	text-align: center;
+	}
+
+
+.frontsocial{
+	float: left;
+	display: inline;
+	height: 21px;
+    width: 116px;
+	color: #FFFFFF; 
+	text-transform: uppercase; 
+	padding: 5px 3px 1px 3px; 
+	font-size:12px; 
+	letter-spacing: 1px; 
+	border: #FFFFFF solid 1px; 
+	text-align: center;
+}
+
+.frontemail{
+	float: left;
+	display: block;
+	height: 19px;
+    width: 131px;
+	color: #FFFFFF; 
+	text-transform: uppercase; 
+	padding: 5px 4px 3px 4px; 
+	font-size:12px; 
+	letter-spacing: 1px; 
+	border: #FFFFFF solid; 
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;  
+	text-align: center;
+	}
+
+
+.frontquote{
+	float: left;
+	height: 19px;
+	width: 394px;
+	color: #FFFFFF; 
+	text-transform: uppercase; 
+	padding: 4px; 
+	font-size:14px; 
+	letter-spacing: 1px; 
+	border: #FFFFFF solid 1px; 
+	text-align: center;
+}
+
+.othersaddress{
+    width: 132px;
+	color: #FFFFFF; 
+	text-transform: uppercase; 
+	padding: 4px; 
+	font-size:10px; 
+	letter-spacing: 1px; 
+	border: #FFFFFF solid; 
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 0px;
+	border-left-width: 1px;
+	text-align: center;
+}
+
+.othersphone{
+    width: 132px;
+	color: #FFFFFF; 
+	text-transform: uppercase; 
+	padding: 4px; 
+	font-size:10px; 
+	letter-spacing: 1px; 
+	border: #FFFFFF solid; 
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 0px;
+	border-left-width: 1px;
+	text-align: center;
+}
+.otherssocial{
+    width: 132px;
+	color: #FFFFFF; 
+	text-transform: uppercase; 
+	padding: 4px 4px 3px 4px;
+	font-size:10px; 
+	letter-spacing: 1px; 
+	border: #FFFFFF solid; 
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 0px;
+	border-left-width: 1px;
+	text-align: center;
+}
+
+.othersemail{
+    width: 132px;
+	color: #FFFFFF; 
+	text-transform: uppercase; 
+	padding: 4px 4px 3px 4px;
+	font-size:10px; 
+	letter-spacing: 1px; 
+	border: #FFFFFF solid; 
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 0px;
+	border-left-width: 1px;
+	text-align: center;
+}
+
+.othersquote{
+    width: 136px;
+	color: #FFFFFF; 
+	text-transform: uppercase; 
+	padding: 4px 2px 4px 2px;
+	font-size:10px; 
+	letter-spacing: 1px; 
+	border: #FFFFFF solid 1px; 
+	text-align: center;
+}
+
+.articletype {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10px;
+	text-transform: uppercase; 
+	letter-spacing: 1px; 
+	display: block;
+}
+
+.booktitle {
+	font-family: 'Cardo', serif; 
+	 font-size:20px;
+	 font-weight: 700;  
+}
+
+.bookauthor {
+	font-family: 'Cardo', serif; 
+	 font-size:20px;
+	 font-weight: 400; 
+	 line-height: 95%; 
+	 display: block;
+}
+
+.articledata {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10px;
+	text-transform: uppercase; 
+	letter-spacing: 1px; 
+	line-height: 150%; 
+	display: block;
+}
+
+.articletop {
+	 margin-top: 0px;
+	 line-height: 150%;
+	 padding-bottom: 0px; 
+	 margin-bottom: 0px; 
+       }
+
+.articlebody {
+	 margin-top: 0px;
+	 line-height: 150%;
+	 padding-bottom: 5px; 
+	 margin-bottom: 5px; 
+       }
+	   
+.articleafterimg {
+	 line-height: 150%;
+	 }
+	 
+.articlefooter {
+	 line-height: 150%;
+	 margin-bottom: -5px;
+	 }
+
+.trybook {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10px;
+	text-transform: uppercase; 
+	letter-spacing: 1px; 
+	display: block;
+}
+
+.coverleft{
+	margin: 0px 2px 0px 0px;}
+	
+.coverright{
+	margin: 0px 0px 0px 2px;}
+	
+.button{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	color:#000000;
+	background: #FFFFFF;
+	text-transform: uppercase; 
+	letter-spacing: 1px; 
+	display: block;
+	margin-top: 12px;
+	}
+	
+	textarea{
+		width: 378px; height: 60px;
+		 }
+	
+.reviewback {
+	font-family: 'Cardo', serif; 
+	font-size: 13px;
+	letter-spacing:0.5px;
+	display: block;
+}
